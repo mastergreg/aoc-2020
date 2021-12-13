@@ -33,7 +33,7 @@ def solve_a_b(inpt, a, b):
 
 
 def solve(inpt):
-    routes = [(3, 1)]
+    routes = [(1, 1), (3, 1), (5, 1), (7, 1), (1, 2)]
     tree_list = [solve_a_b(inpt, a, b) for a, b in routes]
     result = 1
 
